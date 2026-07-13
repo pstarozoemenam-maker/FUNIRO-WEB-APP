@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniro - Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+       <div class="logo">
+        <a href="index.html">
+          <img
+            src="logo1.png"
+            alt="Furniro Logo"
+            style="width: 50; height: 32;  opacity: 1"
+          />
+          <h1
+            style="
+              font-family: Montserrat;
+              font-weight: 700;
+              font-size: 34px;
+              line-height: 100%;
+              letter-spacing: 0px;
+              color: #000000;
+            "
+          >
+            Furniro
+          </h1>
+        </a>
+      </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="nav-icons">
+        <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+        <a href="comparison.html"><i class="fa fa-heart" aria-hidden="true"></i></a>
+        <a href="search.html"><i class="fa fa-search" aria-hidden="true"></i></a>
+         <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+      </div>
+        </div>
+    </header>
+
+    <div class="page-banner" style="background-image: url('banner1.png');">
+        <h1>Cart</h1>
+        <div class="breadcrumb"><a href="index.html">Home</a> &gt; Cart</div>
+    </div>
+
+    <main class="cart-layout">
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div style="display: flex; align-items: center; gap: 20px;">
+                            <img src="asgard.png" class="cart-item-img" alt="Asgaard sofa">
+                            <span style="color: var(--text-light);">Asgaard sofa</span>
+                        </div>
+                    </td>
+                    <td style="color: var(--text-light);">Rs. 250,000.00</td>
+                    <td><input type="number" value="1" class="qty-input"></td>
+                    <td>Rs. 250,000.00</td>
+                    <td><button class="remove-btn"><i class="fa-solid fa-trash"></i></button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="cart-totals">
+            <h2>Cart Totals</h2>
+            <div class="total-row">
+                <span>Subtotal</span>
+                <span style="color: var(--text-light);">Rs. 250,000.00</span>
+            </div>
+            <div class="total-row">
+                <span>Total</span>
+                <span style="color: var(--primary-color); font-size: 1.3rem;">Rs. 250,000.00</span>
+            </div>
+            <a href="checkout.html" class="checkout-btn">Check Out</a>
+        </div>
+    </main>
+</body>
+</html>
