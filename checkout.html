@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furniro - Checkout</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/checkout.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -15,18 +16,8 @@
           <img
             src="images/logo1.png"
             alt="Furniro Logo"
-            style="width: 50; height: 32;  opacity: 1"
           />
-          <h1
-            style="
-              font-family: Montserrat;
-              font-weight: 700;
-              font-size: 34px;
-              line-height: 100%;
-              letter-spacing: 0px;
-              color: #000000;
-            "
-          >
+          <h1>
             Furniro
           </h1>
         </a>
@@ -48,7 +39,7 @@
       </div>
     </header>
 
-    <div class="page-banner" style="background-image: url('images/banner1.png');">
+    <div class="page-banner">
         <h1>Checkout</h1>
         <div class="breadcrumb"><a href="index.html">Home</a> &gt; Checkout</div>
     </div>
@@ -82,17 +73,17 @@
 
         <div class="order-panel">
             <div class="order-summary">
-                <div class="summary-row" style="border: none; font-weight: 600; font-size: 1.3rem;">
+                <div class="summary-row summary-header">
                     <span>Product</span>
                     <span>Subtotal</span>
                 </div>
                 <div class="summary-row">
-                    <span style="color: var(--text-light);">Asgaard sofa × 1</span>
+                    <span class="text-light">Asgaard sofa × 1</span>
                     <span>Rs. 250,000.00</span>
                 </div>
-                <div class="summary-row" style="font-weight: 600; font-size: 1.3rem;">
+                <div class="summary-row summary-total">
                     <span>Total</span>
-                    <span style="color: var(--primary-color);">Rs. 250,000.00</span>
+                    <span class="total-price">Rs. 250,000.00</span>
                 </div>
             </div>
 
@@ -100,7 +91,7 @@
                 <div class="method-option">
                     <input type="radio" id="bank" name="payment" checked>
                     <label for="bank">Direct Bank Transfer</label>
-                    <p style="color: var(--text-light); font-size: 0.9rem; margin-top: 10px;">Make your payment directly into our bank account. Please use your Order ID as the payment reference.</p>
+                    <p class="method-description">Make your payment directly into our bank account. Please use your Order ID as the payment reference.</p>
                 </div>
                 <div class="method-option">
                     <input type="radio" id="cod" name="payment">

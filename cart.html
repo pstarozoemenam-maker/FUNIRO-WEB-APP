@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furniro - Cart</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/cart.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -15,18 +16,8 @@
           <img
             src="images/logo1.png"
             alt="Furniro Logo"
-            style="width: 50; height: 32;  opacity: 1"
           />
-          <h1
-            style="
-              font-family: Montserrat;
-              font-weight: 700;
-              font-size: 34px;
-              line-height: 100%;
-              letter-spacing: 0px;
-              color: #000000;
-            "
-          >
+          <h1>
             Furniro
           </h1>
         </a>
@@ -48,7 +39,7 @@
         </div>
     </header>
 
-    <div class="page-banner" style="background-image: url('images/banner1.png');">
+    <div class="page-banner">
         <h1>Cart</h1>
         <div class="breadcrumb"><a href="index.html">Home</a> &gt; Cart</div>
     </div>
@@ -67,12 +58,12 @@
             <tbody>
                 <tr>
                     <td>
-                        <div style="display: flex; align-items: center; gap: 20px;">
+                        <div class="cart-item-info">
                             <img src="images/asgard.png" class="cart-item-img" alt="Asgaard sofa">
-                            <span style="color: var(--text-light);">Asgaard sofa</span>
+                            <span class="text-light">Asgaard sofa</span>
                         </div>
                     </td>
-                    <td style="color: var(--text-light);">Rs. 250,000.00</td>
+                    <td class="text-light">Rs. 250,000.00</td>
                     <td><input type="number" value="1" class="qty-input"></td>
                     <td>Rs. 250,000.00</td>
                     <td><button class="remove-btn"><i class="fa-solid fa-trash"></i></button></td>
@@ -84,11 +75,11 @@
             <h2>Cart Totals</h2>
             <div class="total-row">
                 <span>Subtotal</span>
-                <span style="color: var(--text-light);">Rs. 250,000.00</span>
+                <span class="text-light">Rs. 250,000.00</span>
             </div>
             <div class="total-row">
                 <span>Total</span>
-                <span style="color: var(--primary-color); font-size: 1.3rem;">Rs. 250,000.00</span>
+                <span class="total-price">Rs. 250,000.00</span>
             </div>
             <a href="checkout.html" class="checkout-btn">Check Out</a>
         </div>

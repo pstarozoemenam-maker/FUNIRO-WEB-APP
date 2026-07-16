@@ -1,156 +1,15 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Furniro - Home</title>
+    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="./font-awesome-4.7.0/css/font-awesome.min.css"
     />
-    <style>
-      .hero-section {
-        background: url("images/hero.png") no-repeat center/cover;
-        padding: 150px 8%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        min-height: 700px;
-      }
-      .hero-box {
-        background-color: #fff3e3;
-        padding: 50px;
-        max-width: 640px;
-        border-radius: 10px;
-      }
-      .hero-box p {
-        letter-spacing: 3px;
-        font-weight: 600;
-        color: #333333;
-      }
-      .hero-box h1 {
-        color: var(--primary-color);
-        font-size: 3.5rem;
-        line-height: 4.2rem;
-        margin: 15px 0;
-        font-weight: 700;
-      }
-      .hero-box p.hero-desc {
-        font-size: 1.1rem;
-        margin-bottom: 40px;
-        color: var(--text-dark);
-        letter-spacing: 0;
-        font-weight: 400;
-      }
-      .hero-box .buy-btn {
-        background-color: var(--primary-color);
-        color: #fff;
-        padding: 20px 60px;
-        text-decoration: none;
-        font-weight: 700;
-        display: inline-block;
-        font-size: 1rem;
-      }
-      .browse-section {
-        padding: 60px 8%;
-        text-align: center;
-      }
-      .browse-section h2 {
-        font-size: 2rem;
-        font-weight: 700;
-        margin-bottom: 10px;
-      }
-      .browse-section p {
-        color: var(--text-light);
-        margin-bottom: 40px;
-      }
-      .browse-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-      }
-      .browse-card img {
-        width: 100%;
-        height: 480px;
-        object-fit: cover;
-        border-radius: 8px;
-      }
-      .browse-card h3 {
-        margin-top: 20px;
-        font-size: 1.3rem;
-        font-weight: 600;
-      }
-      .products-section {
-        padding: 40px 8%;
-        text-align: center;
-      }
-      .products-section h2 {
-        font-size: 2.2rem;
-        font-weight: 700;
-        margin-bottom: 30px;
-      }
-      .show-more-container {
-        margin-top: 40px;
-      }
-      .show-more-btn {
-        border: 1px solid var(--primary-color);
-        color: var(--primary-color);
-        padding: 12px 60px;
-        text-decoration: none;
-        font-weight: 600;
-        display: inline-block;
-        background: none;
-      }
-      .rooms-section {
-        background-color: #fcf8f3;
-        padding: 80px 0 80px 8%;
-        display: grid;
-        grid-template-columns: 1fr 1.5fr;
-        align-items: center;
-        gap: 40px;
-        overflow: hidden;
-      }
-      .rooms-text h2 {
-        font-size: 2.5rem;
-        font-weight: 700;
-        line-height: 3rem;
-        margin-bottom: 15px;
-      }
-      .rooms-text p {
-        color: var(--text-light);
-        margin-bottom: 30px;
-      }
-      .rooms-text .explore-btn {
-        background-color: var(--primary-color);
-        color: #fff;
-        padding: 15px 40px;
-        text-decoration: none;
-        font-weight: 600;
-        display: inline-block;
-      }
-      .rooms-slider {
-        display: flex;
-        gap: 24px;
-      }
-      .slide-card {
-        min-width: 400px;
-        position: relative;
-      }
-      .slide-card img {
-        width: 100%;
-        height: 580px;
-        object-fit: cover;
-      }
-      .slide-info {
-        position: absolute;
-        bottom: 40px;
-        left: 40px;
-        background-color: rgba(255, 255, 255, 0.9);
-        padding: 30px;
-        backdrop-filter: blur(4px);
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -159,18 +18,8 @@
           <img
             src="images/logo1.png"
             alt="Furniro Logo"
-            style="width: 50; height: 32;  opacity: 1"
           />
-          <h1
-            style="
-              font-family: Montserrat;
-              font-weight: 700;
-              font-size: 34px;
-              line-height: 100%;
-              letter-spacing: 0px;
-              color: #000000;
-            "
-          >
+          <h1>
             Furniro
           </h1>
         </a>
@@ -226,7 +75,7 @@
       <h2>Our Products</h2>
       <div class="product-grid">
         <div class="product-card">
-          <a href="product.html" style="text-decoration: none; color: inherit">
+          <a href="product.html">
             <img src="images/img.4.png" alt="Syltherine" />
             <div class="product-info">
               <h3>Syltherine</h3>
@@ -246,7 +95,7 @@
           </div>
         </div>
         <div class="product-card">
-          <a href="product.html" style="text-decoration: none; color: inherit">
+          <a href="product.html">
             <img src="images/img5.png" alt="Leviosa" />
             <div class="product-info">
               <h3>Leviosa</h3>
@@ -266,7 +115,7 @@
           </div>
         </div>
         <div class="product-card">
-          <a href="product.html" style="text-decoration: none; color: inherit">
+          <a href="product.html">
             <img src="images/img6.png" alt="Lolito" />
             <div class="product-info">
               <h3>Lolito</h3>
@@ -286,7 +135,7 @@
           </div>
         </div>
         <div class="product-card">
-          <a href="product.html" style="text-decoration: none; color: inherit">
+          <a href="product.html">
             <img src="images/img7.png" alt="Respira" />
             <div class="product-info">
               <h3>Respira</h3>
@@ -324,10 +173,9 @@
         <div class="slide-card">
           <img src="images/img9.png" alt="Inner Peace" />
           <div class="slide-info">
-            <span style="color: var(--text-light); font-size: 0.9rem"
-              >01 — Bed Room</span
+            <span>01 â€” Bed Room</span
             >
-            <h3 style="font-size: 1.5rem; margin-top: 5px">Inner Peace</h3>
+            <h3>Inner Peace</h3>
           </div>
         </div>
         <div class="slide-card">
@@ -397,3 +245,4 @@
     </footer>
   </body>
 </html>
+
